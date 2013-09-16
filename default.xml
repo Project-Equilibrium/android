@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Main remote for Android -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+           
+  <!-- Generic github remote -->
+  <remote name="github"
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
