@@ -238,7 +238,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -423,6 +422,7 @@
 
   <!-- Project-Equilibrium -->
   <project path="android" name="Project-Equilibrium/android" />
+  <project path="frameworks/base" name="Project-Equilibrium/android_frameworks_base" />
   <project path="packages/apps/Settings" name="Project-Equilibrium/android_packages_apps_Settings" />
   <project path="vendor/pe" name="Project-Equilibrium/android_vendor_pe" >
     <copyfile src="tools/build.sh" dest="build.sh" />
