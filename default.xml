@@ -418,12 +418,10 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <!-- PAC-man -->
-  <project path="packages/apps/HALO" name="PAC-man/HALO" />
-
   <!-- Project-Equilibrium -->
   <project path="android" name="Project-Equilibrium/android" />
   <project path="frameworks/base" name="Project-Equilibrium/android_frameworks_base" />
+  <project path="packages/apps/HALO" name="Project-Equilibrium/android_packages_apps_HALO" />
   <project path="packages/apps/Settings" name="Project-Equilibrium/android_packages_apps_Settings" />
   <project path="vendor/pe" name="Project-Equilibrium/android_vendor_pe" >
     <copyfile src="tools/build.sh" dest="build.sh" />
